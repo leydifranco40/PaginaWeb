@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="../css/style.css" />
+  <title>Registro</title>
+</head>
+
+<body>
+  <div class="pagina-registro">
+    <div>
+      <img src="img/mahtea.jpeg" height="150" width="200" />
+    </div>
+    <section>
+      <form id="registroForm" action="" class="formulario">
+        <div class="new-login">
+          <h4>Iniciar sesión</h4>
+          <p class="intro-login">Padres | Niños</p>
+          <div class="iconed-input">
+            <input id="correo" name="correo" type="email" class="input-text input-text-user"
+              placeholder="Email o nombre de usuario" autocomplete="off" required />
+            <span class="icon icon-over-right icon-user"></span>
+          </div>
+
+          <div class="iconed-input">
+            <input id="password" name="password" type="password" class="input-text input-text-password"
+              placeholder="Contraseña" autocomplete="off" required />
+            <span class="icon icon-over-right icon-password"></span>
+          </div>
+          <a href="" class="forgot-password">
+            ¿Olvidó su contraseña?</a>
+        </div>
+        <label for="aceptarTerminos">
+          <input id="aceptarTerminos" name="aceptarTerminos" type="checkbox" value="acepto" required/>
+          Acepto <a href="" class="terminos"> Terminos y condiciones</a>
+        </label>
+          <br />
+          <button type="submit" id="enviarButton" class="btn-registro">Enviar</button>
+          <p><a href="#">¿Ya tengo cuenta?</a></p>
+      </form>
+    </section>
+  </div>
+  <script src="../js/script.js"></script>
+</body>
+
+</html>
